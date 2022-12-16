@@ -1,12 +1,14 @@
 import React from "react";
 import Body from "../components/Body";
-// import Navbar from "../components/Navbar";
+import Controlled from "../components/Controlled";
+import Uncontrolled from "../components/Uncontrolled";
 
 const Main = () => {
   return (
     <div>
-      {/* <Navbar /> */}
-      <Body />
+      <Controlled />
+      <hr />
+      <Uncontrolled />
     </div>
   );
 };
