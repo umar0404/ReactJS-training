@@ -29,3 +29,12 @@ const Body = () => {
 };
 
 export default Body;
+
+// -LocalStorage.
+// -LocalStorage.setItme(name, value).
+// -LocalStorage.getItme(name).
+// -LocalStorage.removeItem(name).
+// -LocalStorage.clear().
+// -array, object.
+// -JSON.stringify(value).
+// -JSON.parse(localStorage.getItem('count')).
