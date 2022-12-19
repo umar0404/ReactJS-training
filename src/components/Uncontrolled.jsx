@@ -7,7 +7,7 @@ export const Uncontrolled = () => {
       <h1>Uncontrolled</h1>
       <input ref={title} type="text" />
       <button
-        onClick={() => {
+        onClick={() => { 
           console.log("Uncontrolled", title);
           alert(title.current.value);
         }}>
